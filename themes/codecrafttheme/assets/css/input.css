@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+.wp-block-column {
+  @apply text-base md:text-lg text-branddark/70 !leading-[1.9];
+}
+
+.wp-block-column p a {
+  @apply text-brandsecond;
+}
+
+.wp-block-heading {
+  @apply text-2xl font-semibold md:text-3xl pb-5;
+}
+
+.wp-block-list {
+  @apply list-disc list-inside;
+}
+
+.wp-block-button__link {
+  @apply bg-transparent border border-brandsecond text-branddark hover:bg-brandsecond hover:text-white text-base font-semibold px-7 py-4 transition-all;
+}
+
+.paragraph-bordered {
+  @apply border border-brandsecond p-7 md:p-10;
+}
+
+.paragraph-bordered p {
+  @apply text-base md:text-lg lg:text-xl !leading-normal;
+}
+
+.wpforms-field {
+  @apply flex flex-col gap-0 !py-2;
+}
+
+.wpforms-field-label {
+  @apply !m-0 !text-base !font-normal;
+}
+
+.wpforms-field-medium {
+  @apply !block !w-full !max-w-full !bg-white focus:!border-brandsecond focus:!shadow-none;
+}
+
+.wpforms-submit {
+  @apply !bg-brandsecond !text-white !text-base !font-semibold !px-7 !py-4 !transition-all !h-auto !rounded-full;
+}
+
+/* button {
+  @apply !bg-none !border-2;
+} */
+
+.wpforms-confirmation-container-full {
+  @apply !bg-transparent !border !border-branddark/20 !text-branddark;
+}
+
+.wpforms-container {
+  @apply !px-7 !py-5 !bg-white !border !border-branddark/50;
+}
+
+.body-text-sm {
+  @apply !text-[15px];
+}
